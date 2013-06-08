@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E08DE4817577CC300C2B1A6 /* ABALoginTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E08DE4717577CC300C2B1A6 /* ABALoginTVC.m */; };
+		3E7DC15317626DDF0005D8F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CA174534DC00F14882 /* UIKit.framework */; };
+		3E7DC15417626DDF0005D8F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CC174534DC00F14882 /* Foundation.framework */; };
+		3E7DC15517626DDF0005D8F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CE174534DC00F14882 /* CoreGraphics.framework */; };
+		3E7DC17517626DE00005D8F1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7DC17417626DE00005D8F1 /* SenTestingKit.framework */; };
+		3E7DC17617626DE00005D8F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CA174534DC00F14882 /* UIKit.framework */; };
+		3E7DC17717626DE00005D8F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CC174534DC00F14882 /* Foundation.framework */; };
+		3E7DC17F17626DE00005D8F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E7DC17D17626DE00005D8F1 /* InfoPlist.strings */; };
+		3E7DC18217626DE00005D8F1 /* AudioMetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7DC18117626DE00005D8F1 /* AudioMetTests.m */; };
+		3E896DB21748E8DE00617DDC /* SubjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E896DB11748E8DE00617DDC /* SubjectsViewController.m */; };
+		3E896DB41749D7B500617DDC /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E896DB31749D7B500617DDC /* ReadMe.txt */; };
+		3EDA35CB174534DC00F14882 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CA174534DC00F14882 /* UIKit.framework */; };
+		3EDA35CD174534DC00F14882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CC174534DC00F14882 /* Foundation.framework */; };
+		3EDA35CF174534DC00F14882 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDA35CE174534DC00F14882 /* CoreGraphics.framework */; };
+		3EDA35D5174534DC00F14882 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA35D3174534DC00F14882 /* InfoPlist.strings */; };
+		3EDA35D7174534DC00F14882 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA35D6174534DC00F14882 /* main.m */; };
+		3EDA35DB174534DC00F14882 /* ABALoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDA35DA174534DC00F14882 /* ABALoginAppDelegate.m */; };
+		3EDA35DD174534DC00F14882 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA35DC174534DC00F14882 /* Default.png */; };
+		3EDA35DF174534DC00F14882 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA35DE174534DC00F14882 /* Default@2x.png */; };
+		3EDA35E1174534DC00F14882 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA35E0174534DC00F14882 /* Default-568h@2x.png */; };
+		3EDA35E4174534DC00F14882 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDA35E2174534DC00F14882 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E7DC17817626DE00005D8F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDA35BF174534DC00F14882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E7DC15117626DDF0005D8F1;
+			remoteInfo = AudioMet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E08DE4617577CC200C2B1A6 /* ABALoginTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABALoginTVC.h; sourceTree = "<group>"; };
+		3E08DE4717577CC300C2B1A6 /* ABALoginTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABALoginTVC.m; sourceTree = "<group>"; };
+		3E7DC15217626DDF0005D8F1 /* AudioMet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7DC17317626DE00005D8F1 /* AudioMetTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioMetTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7DC17417626DE00005D8F1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3E7DC17C17626DE00005D8F1 /* AudioMetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioMetTests-Info.plist"; sourceTree = "<group>"; };
+		3E7DC17E17626DE00005D8F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E7DC18017626DE00005D8F1 /* AudioMetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioMetTests.h; sourceTree = "<group>"; };
+		3E7DC18117626DE00005D8F1 /* AudioMetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioMetTests.m; sourceTree = "<group>"; };
+		3E896DB01748E8DE00617DDC /* SubjectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectsViewController.h; sourceTree = "<group>"; };
+		3E896DB11748E8DE00617DDC /* SubjectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectsViewController.m; sourceTree = "<group>"; };
+		3E896DB31749D7B500617DDC /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		3EDA35C7174534DC00F14882 /* ABALoginView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABALoginView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDA35CA174534DC00F14882 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3EDA35CC174534DC00F14882 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EDA35CE174534DC00F14882 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3EDA35D2174534DC00F14882 /* ABALoginView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABALoginView-Info.plist"; sourceTree = "<group>"; };
+		3EDA35D4174534DC00F14882 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EDA35D6174534DC00F14882 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EDA35D8174534DC00F14882 /* ABALoginView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABALoginView-Prefix.pch"; sourceTree = "<group>"; };
+		3EDA35D9174534DC00F14882 /* ABALoginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABALoginAppDelegate.h; sourceTree = "<group>"; };
+		3EDA35DA174534DC00F14882 /* ABALoginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABALoginAppDelegate.m; sourceTree = "<group>"; };
+		3EDA35DC174534DC00F14882 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3EDA35DE174534DC00F14882 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3EDA35E0174534DC00F14882 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3EDA35E3174534DC00F14882 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E7DC14F17626DDF0005D8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7DC15317626DDF0005D8F1 /* UIKit.framework in Frameworks */,
+				3E7DC15417626DDF0005D8F1 /* Foundation.framework in Frameworks */,
+				3E7DC15517626DDF0005D8F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7DC16F17626DE00005D8F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7DC17517626DE00005D8F1 /* SenTestingKit.framework in Frameworks */,
+				3E7DC17617626DE00005D8F1 /* UIKit.framework in Frameworks */,
+				3E7DC17717626DE00005D8F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDA35C4174534DC00F14882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA35CB174534DC00F14882 /* UIKit.framework in Frameworks */,
+				3EDA35CD174534DC00F14882 /* Foundation.framework in Frameworks */,
+				3EDA35CF174534DC00F14882 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7DC17A17626DE00005D8F1 /* AudioMetTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E7DC18017626DE00005D8F1 /* AudioMetTests.h */,
+				3E7DC18117626DE00005D8F1 /* AudioMetTests.m */,
+				3E7DC17B17626DE00005D8F1 /* Supporting Files */,
+			);
+			path = AudioMetTests;
+			sourceTree = "<group>";
+		};
+		3E7DC17B17626DE00005D8F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E7DC17C17626DE00005D8F1 /* AudioMetTests-Info.plist */,
+				3E7DC17D17626DE00005D8F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EDA35BE174534DC00F14882 = {
+			isa = PBXGroup;
+			children = (
+				3EDA35D0174534DC00F14882 /* ABALoginView */,
+				3E7DC17A17626DE00005D8F1 /* AudioMetTests */,
+				3EDA35C9174534DC00F14882 /* Frameworks */,
+				3EDA35C8174534DC00F14882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDA35C8174534DC00F14882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA35C7174534DC00F14882 /* ABALoginView.app */,
+				3E7DC15217626DDF0005D8F1 /* AudioMet.app */,
+				3E7DC17317626DE00005D8F1 /* AudioMetTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDA35C9174534DC00F14882 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA35CA174534DC00F14882 /* UIKit.framework */,
+				3EDA35CC174534DC00F14882 /* Foundation.framework */,
+				3EDA35CE174534DC00F14882 /* CoreGraphics.framework */,
+				3E7DC17417626DE00005D8F1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EDA35D0174534DC00F14882 /* ABALoginView */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA35D9174534DC00F14882 /* ABALoginAppDelegate.h */,
+				3EDA35DA174534DC00F14882 /* ABALoginAppDelegate.m */,
+				3EDA35E2174534DC00F14882 /* MainStoryboard.storyboard */,
+				3EDA35D1174534DC00F14882 /* Supporting Files */,
+				3E08DE4617577CC200C2B1A6 /* ABALoginTVC.h */,
+				3E08DE4717577CC300C2B1A6 /* ABALoginTVC.m */,
+				3E896DB01748E8DE00617DDC /* SubjectsViewController.h */,
+				3E896DB11748E8DE00617DDC /* SubjectsViewController.m */,
+				3E896DB31749D7B500617DDC /* ReadMe.txt */,
+			);
+			path = ABALoginView;
+			sourceTree = "<group>";
+		};
+		3EDA35D1174534DC00F14882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EDA35D2174534DC00F14882 /* ABALoginView-Info.plist */,
+				3EDA35D3174534DC00F14882 /* InfoPlist.strings */,
+				3EDA35D6174534DC00F14882 /* main.m */,
+				3EDA35D8174534DC00F14882 /* ABALoginView-Prefix.pch */,
+				3EDA35DC174534DC00F14882 /* Default.png */,
+				3EDA35DE174534DC00F14882 /* Default@2x.png */,
+				3EDA35E0174534DC00F14882 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7DC15117626DDF0005D8F1 /* AudioMet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7DC18717626DE00005D8F1 /* Build configuration list for PBXNativeTarget "AudioMet" */;
+			buildPhases = (
+				3E7DC14E17626DDF0005D8F1 /* Sources */,
+				3E7DC14F17626DDF0005D8F1 /* Frameworks */,
+				3E7DC15017626DDF0005D8F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioMet;
+			productName = AudioMet;
+			productReference = 3E7DC15217626DDF0005D8F1 /* AudioMet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E7DC17217626DE00005D8F1 /* AudioMetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7DC18817626DE00005D8F1 /* Build configuration list for PBXNativeTarget "AudioMetTests" */;
+			buildPhases = (
+				3E7DC16E17626DE00005D8F1 /* Sources */,
+				3E7DC16F17626DE00005D8F1 /* Frameworks */,
+				3E7DC17017626DE00005D8F1 /* Resources */,
+				3E7DC17117626DE00005D8F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E7DC17917626DE00005D8F1 /* PBXTargetDependency */,
+			);
+			name = AudioMetTests;
+			productName = AudioMetTests;
+			productReference = 3E7DC17317626DE00005D8F1 /* AudioMetTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3EDA35C6174534DC00F14882 /* ABALoginView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDA35EA174534DC00F14882 /* Build configuration list for PBXNativeTarget "ABALoginView" */;
+			buildPhases = (
+				3EDA35C3174534DC00F14882 /* Sources */,
+				3EDA35C4174534DC00F14882 /* Frameworks */,
+				3EDA35C5174534DC00F14882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABALoginView;
+			productName = ABALoginView;
+			productReference = 3EDA35C7174534DC00F14882 /* ABALoginView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDA35BF174534DC00F14882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ABALogin;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Salvador Aguinaga";
+			};
+			buildConfigurationList = 3EDA35C2174534DC00F14882 /* Build configuration list for PBXProject "ABALoginView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3EDA35BE174534DC00F14882;
+			productRefGroup = 3EDA35C8174534DC00F14882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDA35C6174534DC00F14882 /* ABALoginView */,
+				3E7DC15117626DDF0005D8F1 /* AudioMet */,
+				3E7DC17217626DE00005D8F1 /* AudioMetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E7DC15017626DDF0005D8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7DC17017626DE00005D8F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7DC17F17626DE00005D8F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDA35C5174534DC00F14882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA35D5174534DC00F14882 /* InfoPlist.strings in Resources */,
+				3EDA35DD174534DC00F14882 /* Default.png in Resources */,
+				3EDA35DF174534DC00F14882 /* Default@2x.png in Resources */,
+				3EDA35E1174534DC00F14882 /* Default-568h@2x.png in Resources */,
+				3EDA35E4174534DC00F14882 /* MainStoryboard.storyboard in Resources */,
+				3E896DB41749D7B500617DDC /* ReadMe.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E7DC17117626DE00005D8F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E7DC14E17626DDF0005D8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7DC16E17626DE00005D8F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7DC18217626DE00005D8F1 /* AudioMetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDA35C3174534DC00F14882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDA35D7174534DC00F14882 /* main.m in Sources */,
+				3EDA35DB174534DC00F14882 /* ABALoginAppDelegate.m in Sources */,
+				3E896DB21748E8DE00617DDC /* SubjectsViewController.m in Sources */,
+				3E08DE4817577CC300C2B1A6 /* ABALoginTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E7DC17917626DE00005D8F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E7DC15117626DDF0005D8F1 /* AudioMet */;
+			targetProxy = 3E7DC17817626DE00005D8F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E7DC17D17626DE00005D8F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E7DC17E17626DE00005D8F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EDA35D3174534DC00F14882 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDA35D4174534DC00F14882 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EDA35E2174534DC00F14882 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDA35E3174534DC00F14882 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E7DC18317626DE00005D8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioMet/AudioMet-Prefix.pch";
+				INFOPLIST_FILE = "AudioMet/AudioMet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E7DC18417626DE00005D8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioMet/AudioMet-Prefix.pch";
+				INFOPLIST_FILE = "AudioMet/AudioMet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3E7DC18517626DE00005D8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioMet.app/AudioMet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioMet/AudioMet-Prefix.pch";
+				INFOPLIST_FILE = "AudioMetTests/AudioMetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3E7DC18617626DE00005D8F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AudioMet.app/AudioMet";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioMet/AudioMet-Prefix.pch";
+				INFOPLIST_FILE = "AudioMetTests/AudioMetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		3EDA35E8174534DC00F14882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EDA35E9174534DC00F14882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDA35EB174534DC00F14882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABALoginView/ABALoginView-Prefix.pch";
+				INFOPLIST_FILE = "ABALoginView/ABALoginView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3EDA35EC174534DC00F14882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ABALoginView/ABALoginView-Prefix.pch";
+				INFOPLIST_FILE = "ABALoginView/ABALoginView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E7DC18717626DE00005D8F1 /* Build configuration list for PBXNativeTarget "AudioMet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7DC18317626DE00005D8F1 /* Debug */,
+				3E7DC18417626DE00005D8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E7DC18817626DE00005D8F1 /* Build configuration list for PBXNativeTarget "AudioMetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7DC18517626DE00005D8F1 /* Debug */,
+				3E7DC18617626DE00005D8F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EDA35C2174534DC00F14882 /* Build configuration list for PBXProject "ABALoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA35E8174534DC00F14882 /* Debug */,
+				3EDA35E9174534DC00F14882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDA35EA174534DC00F14882 /* Build configuration list for PBXNativeTarget "ABALoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDA35EB174534DC00F14882 /* Debug */,
+				3EDA35EC174534DC00F14882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EDA35BF174534DC00F14882 /* Project object */;
+}
